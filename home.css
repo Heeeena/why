@@ -1,0 +1,186 @@
+
+html {
+	background-color: #D5C9BD;
+}
+
+
+body {
+	margin: 0;
+}
+
+a {
+	float: right;
+	text-decoration-line: none;
+}
+
+ul a {
+	padding: 8px;
+	text-align: center;
+	display: block;
+}
+
+/* Nav */
+
+.nav {
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	top: 0;
+}
+
+.nav {
+	background: #78120E;
+	color: #D4D4D4;
+	&__title {
+		margin: px 30px;
+	}
+
+	&__item {
+		display: inline-block;
+		margin: 0px 30px;
+	}
+}
+
+.nav__title {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin-left: 50px;
+	font-size: 25px;
+	color: #D4D4D4;
+}
+
+.nav__item {
+	font-family: 'Fugaz One', cursive;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #D4D4D4;
+	
+}
+
+.nav__item:hover {
+	color: #D1B04F;
+	transition: .2s ease;
+}
+.nav__item:active {
+	text-decoration: none;
+}
+.nav__item:link {
+	text-decoration: none;
+}
+.nav__item:visited {
+	text-decoration: none;
+}
+
+
+/* folder */
+
+#yellow{
+	align-content: left;
+}
+
+.files{
+	transition: .1s ease;
+	float: left;
+	margin-top: 70px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.fchange{
+	font-family: 'Fugaz One', cursive;
+	color: #78120E;
+	font-size: 17px;
+}
+
+.fchange:hover{
+	color: #C56E69;
+	transition: .2s ease;
+}
+.fchange:active{
+	text-decoration: none;
+}
+.fchange:link{
+	text-decoration: none;
+}
+.fchanges:visited{
+	text-decoration: none;
+}
+
+
+/* box */
+
+#donut{
+	margin-top: 300px;
+}
+.box{
+	background-color: #C56E69;
+	width: 350px;
+	height: 375px;
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 50px;
+
+}
+
+.round{
+	display: flex;
+	float: right;
+	justify-content: space-between;
+	right: 50px;
+	margin: 10px;
+
+}
+
+.circle1{
+	width: 10px;
+	height: 10px;
+	background: #78120E;
+	border-radius: 50%;
+	margin-right: 7px;
+}
+.circle2{
+	width: 10px;
+	height: 10px;
+	background: #D1B04F;
+	border-radius: 50%;
+	margin-right: 7px;
+}
+.circle3{
+	width: 10px;
+	height: 10px;
+	background: #186143;
+	border-radius: 50%;
+	margin-right: 7px;
+}
+
+.twinkle{
+	position: absolute;
+	bottom: 0;
+
+}
+
+.firsttag{
+	position: absolute;
+	right: 24em;
+	top: 40em;
+	transform: rotate(-10deg);
+	
+}
+
+.secondtag{
+	position: absolute;
+	right: 20em;
+	padding-top: 8em;
+	transform: rotate(15deg);
+	z-index: 5;
+}
+
+.firsttag:hover{
+	transform: rotate(-15deg) translate(-10px);
+}
+.secondtag:hover{
+	transform: rotate(20deg) translate(-20px);
+}
